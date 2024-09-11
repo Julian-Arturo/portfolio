@@ -9,15 +9,30 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@types/node": "20.3.2",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.13.6",
+    "@radix-ui/react-select": "^1.2.2",
+    "@types/node": "20.3.1",
     "@types/react": "18.2.14",
     "@types/react-dom": "18.2.6",
+    "@u-wave/react-vimeo": "^0.9.10",
     "autoprefixer": "10.4.14",
+    "bootstrap": "^5.3.0",
+    "gsap": "^3.12.1",
     "next": "13.4.7",
+    "next-offline": "^5.0.5",
+    "next-pwa": "^5.6.0",
+    "next-seo": "^6.1.0",
     "postcss": "8.4.24",
     "react": "18.2.0",
+    "react-bootstrap": "^2.8.0",
     "react-dom": "18.2.0",
+    "react-icons": "^4.10.1",
+    "react-tsparticles": "^2.10.1",
+    "swiper": "^9.4.1",
     "tailwindcss": "3.3.2",
+    "tsparticles": "^2.10.1",
     "typescript": "5.1.6"
   }
 }

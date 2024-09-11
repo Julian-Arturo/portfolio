@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: "Relaway";
+  src: url('../../public/fonts/Raleway-Regular.ttf') format('truetype');;
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap
+}
+
+html {
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+html,
+body {
+  --swiper-pagination-color: #1AFFA2;
+  font-family: 'Relaway';
+  scroll-padding: 100px;
+}
+
+.orbitron {
+  font-family: 'Orbitron';
+}
+
+
+.relaway {
+  font-family: 'Relaway';
+}
+
+
+h1,h2,h3,h4,p{
+  font-family: "Relaway";
+}
+
+
+.video-filter::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Cambia el valor del fondo según tus necesidades */
+}
+
+.popup-exit {
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+}
+
+
+
+.particlesContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.contentContainer {
+  position: relative;
+  z-index: 1;
+}
